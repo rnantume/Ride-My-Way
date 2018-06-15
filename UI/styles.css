@@ -1,0 +1,266 @@
+html, body {
+    margin: 0;
+    padding: 0
+    width: 100;
+    overflow: hidden;
+}
+
+body{
+    width: 200;
+    height: 600;
+    background: url(mainbg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    font-family: montserrat;
+    position: overflow;
+    overflow: hidden;
+   
+}
+.container{
+    width: 600px;
+    margin: 300px 300px;
+   
+
+    text-align: center;
+}
+h1{
+    color: #ffffff;
+    font: roboto;
+}
+h2{
+    color: white;
+    font-style: 900px 96px, 'roboto', cusive;
+}
+h3{
+    color: #2828a5;
+    font-style: 900px 96px, 'verdana', cusive;
+}
+.btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+a:link {
+    color: white;
+    
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100;
+    height: 80;
+    border-bottom: 1px solid rgb(255,255,255,0.5);
+}
+
+.box{
+    position: relative;
+    margin-top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 450px;
+    padding: 40px;
+    background-color: rgb(0,0,0,8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgb(0,0,0,5);
+    border-radius: 30px;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+}
+
+.box h2{
+    margin: 0,0,30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.box .inputbox{
+    position: relative;
+}
+
+.box .inputbox input
+{
+width: 100%;
+padding: 10px 0;
+font-size: 16px;
+letter-spacing: 1px;
+color: #fff;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid #fff;
+outline: none;
+background: transparent;
+
+}
+.box .inputbox label{
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .8s;
+}
+.box .inputbox input:focus ~ label,
+.box .inputbox input:valid ~ label{
+    top: -18px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+}
+.box input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5%;
+     
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height:100px;
+    background: #03a9f4;
+    top: 0;
+    left: 0;
+    color: white;
+    z-index: 7;
+    font-family: verdana;
+}
+#img1{
+    left: 100px;
+    height: 20px;
+    width: 110px;}
+   
+.box2{
+    position: center;
+    margin-left: 610px;
+    margin-top: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1100px;
+    height: 650px;
+    padding: 40px;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgb(0,0,0,5);
+    border-radius: 30px;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+}
+#asider{
+    top: 40px;
+    left: 700px;
+    margin-bottom: 400px;
+    width: 450px;
+    height: 600px;
+    float: right;
+   color: #2828a5;
+   font-family: verdana;
+   font-size: 25px;
+    background-color: #8990c7;
+    padding-left: 30px;
+}
+.namebox{
+    width: 400px;
+    height:50px;
+    border-radius: 10px/10px;
+    background: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.logo{
+    float: left;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 80px;
+    padding: 0 6cm;
+
+}
+.menu{
+    float: right;
+    line-height: 50px;
+
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+ul li: nth-child(5) a{
+    color: #009f8b;
+    border: 1px solid #009f8b;
+    padding: 10px 20px;
+    border-radius: 4px;
+
+}
+.header {
+position: absolute;
+top: 50%;
+left: 50%
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.header h1{
+    color: #fff;
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.header p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.header button {
+    color: #fff;
+    background: #009f8b;
+    padding: 18px 38px;
+    boarder: none;
+    font-size: 14px;
+}
