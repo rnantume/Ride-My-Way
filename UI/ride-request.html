@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>ride my way</title>
+    <title>Passengers Page</title>
   <link rel="stylesheet" href="assets/css/styles.css">
  </head>
 <body>
@@ -29,13 +29,13 @@
                         Home </a>
                     </li>
                     <li>
-                      <a href="offer-drive.html" class="active">
-                       Offer Ride
+                      <a href="" class="active">
+                      Request Ride
                         </a>
                     </li>
                     <li>
-                      <a href="request.html" class="passengers">
-                       Requests
+                      <a href="offers-available.html" class="passengers">
+                       Offers Available
                      </a>
                     </li>
                     <li>
@@ -54,7 +54,7 @@
             
    
 <!--new ride-->
-<h3 style="margin-left: 480"> Drivers' Page | add new ride </h3>
+<h3 style="margin-left: 480"> Passengers' Page | Request Ride </h3>
    
       <div class="ride-table">
     <form action="" method="POST">
@@ -63,16 +63,12 @@
         <th class="thead">Date</th>
         <td class="tdata"><input type="text" name="datepicker" id="datepicker" required length="400"/></td>
       </tr>
-      <tr>
-        <th class="thead">License number</th>
-        <td class="tdata" ><input type="text" name="licenseNo" required /></td>
-        </tr>
-        <tr>
+      
         <th class="thead">From</th> 
         <td class="tdata" ><input type="text" name="deptfrom" required /></td> 
         </tr>
         <tr>
-            <th class="thead">Destination</th>
+            <th class="thead">To</th>
             <td class="tdata" ><input type="text" name="goingto" required /></td>
         </tr>
       
@@ -103,28 +99,12 @@
     </table>
     <br>
     
-        <input type="submit" name="submit" value="Add Trips" class="btn" style="margin-left: 80; width: 200px;" />
+        <input type="submit" name="submit" value="Request Ride" class="btn" style="margin-left: 80; width: 200px;" />
+
 
     </form>
   </div>
-  
- 
-<br/> <br/>
-    <header>
-    <nav>
-        <ul>
-          <li><a href="../about.php">About</a></li>
-          <li><a href="../contact.php">Contact</a></li>
-          <li class="phone"><a href="tel:+256704130670">+256-704130670</a></li>
-        </ul>
-      </nav>
-      <div align="center" style="padding-top: 10px">
-          <h2>Copyright&copy;2018</h2>
-          <a href="http://www.facebook.com"><img src="images/facebook-wrap.png" alt="Facebook Logo" width="35" height="30"></a>
-          <a href="http://twitter.com"><img src="images/twitter-wrap.png" alt="Twitter Logo" width="35" height="30"></a>
-          <a href="http://plus.google.com"><img src="images/google-wrap.png" alt="GooglePlus Logo" width="35" height="30"></a>
-      </div>
-    </header>
+
   </div>    
 </body>
 </html>
